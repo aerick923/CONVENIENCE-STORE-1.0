@@ -8,6 +8,7 @@ package com.mycompany.convenience.store_1;
  *
  * @author USER
  */
+
 // FEBRUARY 8, 2026: STARTING POINT
 
 // FEBRUARY 9, 2026: 
@@ -29,8 +30,10 @@ package com.mycompany.convenience.store_1;
 // input statements under case 2
 // farewell message to customer when exiting the program
 
-// FEATURES CHANGED:
-//
+// FEBRUARY 13, 2026:
+// FEATURES ADDED: 
+// variables
+// input statements under case 3
 
 import java.util.Scanner;
 
@@ -40,6 +43,8 @@ public class CONVENIENCESTORE_1
     {
         Scanner myObj = new Scanner(System.in);
         int choice = 0;
+        String name;
+        char gender; 
         
         System.out.println("===== WELCOME TO THE CONVINIENCE STORE! =====");
         System.out.println("[1] CREATE ACCOUNT");
@@ -60,12 +65,14 @@ public class CONVENIENCESTORE_1
             
             case 2:
                 System.out.println("===== MENU =====");
-                System.out.println("[1] CHECK STOCK: "); 
-                System.out.println("[2] PICK MENU: ");                
+                System.out.println("[1] CHECK STOCK "); 
+                System.out.println("[2] PICK MENU ");                
                 break; 
                 
             case 3:
                 System.out.println("===== ATM =====");
+                System.out.println("[1] WITHDRAW "); 
+                System.out.println("[2] DEPOSIT "); 
                 break; 
                 
             case 4:
