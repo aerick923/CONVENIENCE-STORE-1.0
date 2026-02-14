@@ -16,7 +16,9 @@ Java
 
 # FEATURES:
 
-None (for now)
+- Account creation
+- Menu
+- ATM
 
 # MANDATORY:
 
