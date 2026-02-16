@@ -19,6 +19,8 @@ Java
 - Account creation
 - Menu
 - ATM
+- Calculator (to be added)
+- To-do List (to be added)
 
 # MANDATORY:
 
